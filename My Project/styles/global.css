@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*:active,*:focus{
+    outline: none;
+}
+
+
+body {
+    background-color: #34495e;
+    font-family: monospace;
+    display: grid;
+    grid-template-rows: 70px 1fr 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #2ecc71;
+    text-decoration: underline;
+}
+
+footer{
+    border-top: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+
+footer > img {
+    width: 150px;
+}
+
+footer > img:hover{
+    cursor: pointer;
+}
